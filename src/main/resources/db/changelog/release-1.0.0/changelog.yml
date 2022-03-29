@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: damian
+      dbms: h2
+      sqlFile:
+        path: 0-init-h2.sql
+        relativeToChangelogFile: true
